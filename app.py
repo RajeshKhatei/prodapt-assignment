@@ -27,4 +27,9 @@ def index():
     with open('output.csv', 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerows(output)
+    return "Output.csv file generated"
+
+
+if __name__ =="__main__":
+    app.run(debug=True, host="0.0.0.0")
 

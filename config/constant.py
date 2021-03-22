@@ -1,1 +1,1 @@
-STATIC_FOLDER = 'mysql+pymysql://root:@localhost/jot4'
+STATIC_FOLDER = 'static'
