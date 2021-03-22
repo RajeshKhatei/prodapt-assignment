@@ -1,0 +1,1 @@
+STATIC_FOLDER = 'mysql+pymysql://root:@localhost/jot4'
